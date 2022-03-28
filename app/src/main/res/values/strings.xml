@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="firstSummand">Первое слагаемое</string>
+    <string name="enterFirstSummand">Введите первое слагаемое</string>
+    <string name="secondSummand">Второе слагаемое</string>
+    <string name="enterSecondSummand">Введите второе слагаемое</string>
+    <string name="addUpTheNumbers">Сложить числа</string>
+    <string name="editTextDigits">0,1,2,3,4,5,6,7,8,9,-</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextFirstWidth">204dp</dimen>
+    <dimen name="editTextFirstHeight">48dp</dimen>
+    <dimen name="editTextFirstSize">15sp</dimen>
+    <dimen name="textViewFirstWidth">247dp</dimen>
+    <dimen name="textViewFirstHeight">51dp</dimen>
+    <dimen name="textViewFirstSize">22sp</dimen>
+    <dimen name="textViewSecondWidth">247dp</dimen>
+    <dimen name="textViewSecondHeight">51dp</dimen>
+    <dimen name="textViewSecondSize">22sp</dimen>
+    <dimen name="editTextSecondWidth">204dp</dimen>
+    <dimen name="editTextSecondHeight">38dp</dimen>
+    <dimen name="editTextSecondSize">15sp</dimen>
+    <dimen name="buttonSizeWidth">279dp</dimen>
+    <dimen name="buttonSizeHeight">107dp</dimen>
+    <dimen name="buttonTextSize">18sp</dimen>
+</resources>
