@@ -10,7 +10,7 @@
     <dimen name="textViewSecondHeight">51dp</dimen>
     <dimen name="textViewSecondSize">22sp</dimen>
     <dimen name="editTextSecondWidth">204dp</dimen>
-    <dimen name="editTextSecondHeight">38dp</dimen>
+    <dimen name="editTextSecondHeight">48dp</dimen>
     <dimen name="editTextSecondSize">15sp</dimen>
     <dimen name="buttonSizeWidth">279dp</dimen>
     <dimen name="buttonSizeHeight">107dp</dimen>

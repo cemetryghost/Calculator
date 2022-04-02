@@ -8,57 +8,58 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/editTextSecondSummand"
         android:layout_width="@dimen/editTextFirstWidth"
         android:layout_height="@dimen/editTextFirstHeight"
         android:layout_marginBottom="116dp"
         android:ems="10"
         android:hint="@string/enterSecondSummand"
         android:inputType="number"
-        android:textSize="@dimen/editTextFirstSize"
         android:digits="@string/editTextDigits"
+        android:textSize="@dimen/editTextFirstSize"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewSecondSummand"
         android:layout_width="@dimen/textViewFirstWidth"
         android:layout_height="@dimen/textViewFirstHeight"
         android:layout_marginBottom="8dp"
         android:gravity="center"
         android:text="@string/secondSummand"
         android:textSize="@dimen/textViewFirstSize"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
+        app:layout_constraintBottom_toTopOf="@+id/editTextSecondSummand"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewFirstSummand"
         android:layout_width="@dimen/textViewSecondWidth"
         android:layout_height="@dimen/textViewSecondHeight"
         android:gravity="center"
         android:text="@string/firstSummand"
         android:textSize="@dimen/textViewSecondSize"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumber1"
+        app:layout_constraintBottom_toTopOf="@+id/editTextFirstSummand"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.919" />
+        app:layout_constraintVertical_bias="0.932" />
 
     <EditText
-        android:id="@+id/editTextNumber1"
+        android:id="@+id/editTextFirstSummand"
         android:layout_width="@dimen/editTextSecondWidth"
         android:layout_height="@dimen/editTextSecondHeight"
-        android:layout_marginBottom="132dp"
+        android:layout_marginBottom="112dp"
         android:ems="10"
         android:hint="@string/enterFirstSummand"
         android:inputType="number"
-        android:textSize="@dimen/editTextSecondSize"
         android:digits="@string/editTextDigits"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:textSize="@dimen/editTextSecondSize"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSecondSummand"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -68,6 +69,7 @@
         android:layout_height="@dimen/buttonSizeHeight"
         android:layout_marginBottom="92dp"
         android:backgroundTint="@color/buttonColor"
+        android:onClick="onClick"
         android:text="@string/addUpTheNumbers"
         android:textSize="@dimen/buttonTextSize"
         app:layout_constraintBottom_toBottomOf="parent"
